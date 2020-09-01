@@ -6,5 +6,7 @@ import (
 )
 
 func TestMain(t *testing.T) {
-	t.Error(errors.New("test"))
+	if Foo() != "Foo" {
+		t.Error(errors.New("foo is not foo"))
+	}
 }
