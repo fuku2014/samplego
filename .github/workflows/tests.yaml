@@ -6,6 +6,8 @@ jobs:
   test:
     name: test
     runs-on: ubuntu-latest
+    env:
+      FOO: ${{ secrets.FOO }}
     steps:
       - name: Checkout
         uses: actions/checkout@v2
