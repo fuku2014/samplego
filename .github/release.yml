@@ -6,3 +6,6 @@ changelog:
     - title: 👒 BugFix
       labels:
         - bug
+    - title: 👒 BugFix
+      labels:
+        - "*"
